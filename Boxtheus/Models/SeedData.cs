@@ -28,7 +28,7 @@ namespace Boxtheus.Models
                         Shape = "Oval",
                         Size = "Medium",
                         Quantity = 10,
-                        //Color = "Pink",
+                        Color = "Pink",
                         Price = 277.50M
                     },
                     new BoxView
@@ -40,7 +40,7 @@ namespace Boxtheus.Models
                         Shape = "Custom Shape",
                         Size = "Large",
                         Quantity = 15,
-                        //Color = "Gray",
+                        Color = "Gray",
                         Price = 80.49M
                     },
                     new BoxView
@@ -52,7 +52,7 @@ namespace Boxtheus.Models
                         Shape = "Standard",
                         Size = "Abstract Art",
                         Quantity = 100,
-                        //Color = "Beige",
+                        Color = "Beige",
                         Price = 259.59M
                     },
                     new BoxView
@@ -64,7 +64,7 @@ namespace Boxtheus.Models
                         Shape = "Extra Large",
                         Size = "Vintage Patterns",
                         Quantity = 12,
-                        //Color = "Brown",
+                        Color = "Brown",
                         Price = 183.29M
                     },
                     new BoxView
@@ -76,7 +76,7 @@ namespace Boxtheus.Models
                         Shape = "Rectangular",
                         Size = "Large",
                         Quantity = 50,
-                        //Color = "Blue",
+                        Color = "Blue",
                         Price = 53.97M
                     },
                     new BoxView
@@ -88,7 +88,7 @@ namespace Boxtheus.Models
                         Shape = "Square",
                         Size = "Medium",
                         Quantity = 8,
-                        //Color = "Red Violet",
+                        Color = "Red Violet",
                         Price = 250.39M
                     },
                     new BoxView
@@ -100,7 +100,7 @@ namespace Boxtheus.Models
                         Shape = "Oval",
                         Size = "Small",
                         Quantity = 2,
-                        //Color = "Black",
+                        Color = "Black",
                         Price = 105.50M
                     },
                     new BoxView
@@ -112,7 +112,7 @@ namespace Boxtheus.Models
                         Shape = "Square",
                         Size = "Extra Large",
                         Quantity = 6,
-                        //Color = "Beige",
+                        Color = "Beige",
                         Price = 103.15M
                     },
                     new BoxView
@@ -124,7 +124,7 @@ namespace Boxtheus.Models
                         Shape = "Square",
                         Size = "Extra Large",
                         Quantity = 4,
-                        //Color = "Brown",
+                        Color = "Brown",
                         Price = 83.09M
                     },
                      new BoxView
@@ -136,7 +136,7 @@ namespace Boxtheus.Models
                         Shape = "Custom Shape",
                         Size = "Large",
                         Quantity = 15,
-                        //Color = "Gray",
+                        Color = "Gray",
                         Price = 80.49M
                     }
                 );

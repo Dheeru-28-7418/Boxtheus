@@ -87,7 +87,7 @@ namespace Boxtheus.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Brand,OrderDate,Category,Design,Shape,Size,Quantity,Price")] BoxView boxView)
+        public async Task<IActionResult> Create([Bind("Id,Brand,OrderDate,Category,Design,Shape,Size,Quantity,Price,Color")] BoxView boxView)
         {
             if (ModelState.IsValid)
             {
@@ -119,7 +119,7 @@ namespace Boxtheus.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Brand,OrderDate,Category,Design,Shape,Size,Quantity,Price")] BoxView boxView)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Brand,OrderDate,Category,Design,Shape,Size,Quantity,Price,Color")] BoxView boxView)
         {
             if (id != boxView.Id)
             {
