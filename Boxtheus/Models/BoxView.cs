@@ -8,7 +8,7 @@ namespace Boxtheus.Models
         public int Id { get; set; }
         
         public string? Brand { get; set; }
-
+        [Display(Name = "Order Date")]
         [DataType(DataType.Date)]
         public DateTime OrderDate { get; set; }
        
@@ -20,7 +20,7 @@ namespace Boxtheus.Models
         public int Quantity { get; set; }
         
         [DataType(DataType.Currency)]
-  
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
       
     }
