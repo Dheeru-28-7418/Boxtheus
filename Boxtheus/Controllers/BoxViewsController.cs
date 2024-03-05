@@ -20,8 +20,7 @@ namespace Boxtheus.Controllers
         }
 
         // GET: BoxViews
-        // GET: Movies
-        public async Task<IActionResult> Index(string BoxDesign, string searchString)
+         public async Task<IActionResult> Index(string BoxDesign, string searchString)
         {
             if (_context.BoxView == null)
             {
