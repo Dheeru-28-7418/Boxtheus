@@ -36,9 +36,14 @@
             @RenderBody()
         </main>
     </div>
-
-
-
+     <style>
+        /* Ensure the footer is fixed to the bottom */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2024 - Boxtheus App - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
