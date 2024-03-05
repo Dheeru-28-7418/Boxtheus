@@ -20,6 +20,7 @@ namespace Boxtheus.Controllers
         }
 
         // GET: BoxViews
+        // GET: Movies
         public async Task<IActionResult> Index(string BoxDesign, string searchString)
         {
             if (_context.BoxView == null)
@@ -57,7 +58,6 @@ namespace Boxtheus.Controllers
         {
             return "From [HttpPost]Index: filter on " + searchString;
         }
-
         // GET: BoxViews/Details/5
         public async Task<IActionResult> Details(int? id)
         {
