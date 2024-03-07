@@ -65,7 +65,7 @@ Added the image to the homepage.
 We added a view folder and modified the contents in the paragraph of index file with hello from our view.
 We changed the title of the page, footer and the menu link as per our requirement in the layout file.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------ta----------------------------------------------------------------
 Task 3:
 
 We updated the BoxView class and added the entites in the BoxView class.
