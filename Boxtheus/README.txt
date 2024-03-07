@@ -158,6 +158,11 @@ Edited existing product value and examined whether the values are updated in the
 Deleted the existing product and examined whether the product is deleted or not.
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2024-03-07
+1101
+Create a login.aspx page and switch it to HTML view
+Create register login.
 
 
 
