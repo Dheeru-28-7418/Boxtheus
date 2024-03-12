@@ -3,15 +3,24 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Boxtheus.Models;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<BoxtheusContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("BoxtheusContext")));
+options.UseSqlServer(builder.Configuration.GetConnectionString("BoxtheusContext")));
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
+builder.Services.AddDbContextPool<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
+
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseSqlServer(connectionString));
+
+/*void connectionString(SqlServerDbContextOptionsBuilder builder)
+{
+    throw new NotImplementedException();
+}*/
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
