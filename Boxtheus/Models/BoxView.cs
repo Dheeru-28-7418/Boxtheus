@@ -20,7 +20,7 @@ namespace Boxtheus.Models
         public string? Category { get; set; }
 
         [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$")]
-        [StringLength(20)]
+        [StringLength(50)]
         [Required]
         public string? Design { get; set; }
         public string? Shape { get; set; }
