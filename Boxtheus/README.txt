@@ -167,3 +167,7 @@ Create register login.
 2024-03-12 
 21:30
 Made changes in program.cs file and appsettings.Production.json file
+
+2024-03-13
+17:00
+Deployed successfully in Azure

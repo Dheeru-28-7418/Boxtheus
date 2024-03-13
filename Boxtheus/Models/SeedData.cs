@@ -50,7 +50,7 @@ namespace Boxtheus.Models
                         Category = "Shipping Box",
                         Design = "Stripes",
                         Shape = "Standard",
-                        Size = "Abstract Art",
+                        Size = "Extra Large",
                         Quantity = 100,
                         Color = "Beige",
                         Price = 259.59M
@@ -61,8 +61,8 @@ namespace Boxtheus.Models
                         OrderDate = DateTime.Parse("2024-2-15"),
                         Category = "Electronic Product Box",
                         Design = "Geometric Patterns",
-                        Shape = "Extra Large",
-                        Size = "Vintage Patterns",
+                        Shape = "Square",
+                        Size = "Extra Large",
                         Quantity = 12,
                         Color = "Brown",
                         Price = 183.29M
