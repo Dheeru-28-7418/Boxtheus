@@ -164,6 +164,6 @@ Deleted the existing product and examined whether the product is deleted or not.
 Create a login.aspx page and switch it to HTML view
 Create register login.
 
-
-
-Updated 
+2024-03-12 
+21:30
+Made changes in program.cs file and appsettings.Production.json file
