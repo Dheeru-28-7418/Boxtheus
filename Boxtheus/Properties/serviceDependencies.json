@@ -1,17 +1,18 @@
 {
   "dependencies": {
-    "mssql2": {
+    "mssql3": {
       "type": "mssql",
-      "connectionId": "ConnectionStrings:BoxtheusContext"
+      "connectionId": "ConnectionStrings"
     },
     "mssql1": {
       "type": "mssql",
       "connectionId": "ConnectionStrings:DefaultConnection",
       "dynamicId": null
     },
-    "mssql3": {
+    "mssql2": {
       "type": "mssql",
-      "connectionId": "ConnectionStrings"
+      "connectionId": "ConnectionStrings:BoxtheusContext",
+      "dynamicId": null
     }
   }
 }
