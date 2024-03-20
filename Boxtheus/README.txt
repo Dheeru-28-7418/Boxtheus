@@ -171,3 +171,14 @@ Made changes in program.cs file and appsettings.Production.json file
 2024-03-13
 17:00
 Deployed successfully in Azure
+
+2024-03-20
+16:20
+Again deployed successfully in Azure from Dheeru's Azure account.
+
+Test Link:
+Azure link : https://boxtheustest.azurewebsites.net  
+Database Server Name : boxtheusdb
+Database Name: Boxtheus_db
+Database User Name: Boxetheusadmin
+Password : Products@321
